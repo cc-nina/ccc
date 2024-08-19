@@ -23,7 +23,7 @@
             <a
                 href={tab.link}
                 class="duration-200 hover:text-violet-400"
-                target={index === 2 ? "_blank" : ""}
+                target={index === 3 ? "_blank" : ""}
             >
                 <p>{tab.name}</p>
             </a>

@@ -9,13 +9,12 @@ html {
 }
 
 * {
-	font-family: 'Arimo';
+	font-family: 'Arimo', sans-serif;
 }
 
-h1, h2, h3 {
-	font-family: 'Playfair Display';
-}
-
+h1,
+h2,
+h3,
 .arimo {
-    font-family: 'Arimo';
+    font-family: 'Arimo', sans-serif;
 }
