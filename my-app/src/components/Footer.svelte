@@ -40,7 +40,7 @@
         <p>
             <b class="pr-2">Instagram</b>
             <a href="https://www.instagram.com/fflsociety_/" target="_blank" class="text-violet-400"
-                >fflsociety_<sup class=""
+                >@fflsociety_<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
                             class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
@@ -51,7 +51,7 @@
         <p>
             <b class="pr-2">Medium</b>
             <a href="https://medium.com/@futurefemaleleaderssociety" target="_blank" class="text-violet-400"
-                >fflsociety<sup class=""
+                >@futurefemaleleaderssociety<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
                             class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
