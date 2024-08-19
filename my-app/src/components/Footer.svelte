@@ -40,7 +40,7 @@
         <p>
             <b class="pr-2">Instagram</b>
             <a href="https://www.instagram.com/fflsociety_/" target="_blank" class="text-violet-400"
-                >fflsociety<sup class=""
+                >fflsociety_<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
                             class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
