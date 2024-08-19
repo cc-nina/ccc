@@ -51,14 +51,13 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Samuel</span> Oak
-                <br />Full Stack
-                <span class="poppins text-violet-400">Developer</span>
+                Hi! We're <span class="poppins  text-[#F3DCCE]">FFLS</span> 
             </h2>
+            <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl">
+                The <span class="poppins italic  text-[#F3DCCE]">Future Female Leaders Society</span> 
+            </h3>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite tech</span> includes JavaScript
-                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
-                or Firebase/Firestore!
+                Our <span class=" text-[#F3DCCE]"> mission</span> is to lorem ipsum dolor sit amet,  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             <button
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"

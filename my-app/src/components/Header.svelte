@@ -3,7 +3,7 @@
 
     export let tabs = [
         { name: "Projects ", link: "#projects" },
-        { name: "About me", link: "#about" },
+        { name: "About Us", link: "#about" },
         { name: "Blog", link: "#blog" },
         { name: "Contact", link: "#contact" },
     ];
@@ -16,7 +16,7 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <b class="font-bold arimo">Samuel</b> <span class="">Oak</span>
+        <b class="font-bold arimo">Future Female Leaders Society</b>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
