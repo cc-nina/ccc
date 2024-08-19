@@ -1,9 +1,16 @@
 <footer id="contact"
     class="py-20 sm:py-32 bg-[#311847] border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
-    <p class="px-4 py-2 bg-white text-slate-950 font-medium">
-        Connect with us &darr;
-    </p>
+    <div
+            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+        >
+            <h6 class="text-large sm:text-xl md:text-2xl">
+                Interested?
+            </h6>
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                Feel free to <span class="poppins text-violet-400">connect</span> with us.
+            </h3>
+        </div>
     <div class="flex flex-col gap-4 items-center justify-center">
         <div
             class="flex items-center gap-4 sm:gap-6 text-2xl sm:text-3xl md:text-4xl mx-auto"
