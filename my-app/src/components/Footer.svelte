@@ -9,16 +9,19 @@
             class="flex items-center gap-4 sm:gap-6 text-2xl sm:text-3xl md:text-4xl mx-auto"
         >
             <a>
-                <i class="fa-brands fa-linkedin-in" />
+                <i class="fa fa-envelope" />
             </a>
             <a>
-                <i class="fa-brands fa-github" />
+                <i class="fa-brands fa-instagram" />
+            </a>
+            <a>
+                <i class="fa-brands fa-medium" />
             </a>
         </div>
         <p class="mx-auto text-sm opacity-70">or</p>
 
         <p><b class="pr-2">Email</b> 
-            <a href="mailto:example.com" target="_blank">
+            <a href="mailto:example.com" target="_blank" class="text-violet-400">
                 example@gmail.com<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
@@ -39,8 +42,8 @@
             </a>
         </p>
         <p>
-            <b class="pr-2">LinkedIn</b>
-            <a href="https://www.linkedin.com/" target="_blank" class="text-violet-400"
+            <b class="pr-2">Medium</b>
+            <a href="https://medium.com/@futurefemaleleaderssociety" target="_blank" class="text-violet-400"
                 >fflsociety<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
