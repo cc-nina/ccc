@@ -28,19 +28,19 @@
             name: "Educate",
             description:
             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos. ", 
-            col: "text-[#EF5D60]",
+            col: "text-[#EF5D60] poppins text-4xl sm:text-5xl font-semibold md:text-6xl",
         },
         {
             name: "Empower",
             description:
             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos. ", 
-            col: "text-[#EC4067]",
+            col: "text-[#EC4067] poppins text-4xl sm:text-5xl font-semibold md:text-6xl",
         },
         {
             name: "Exchange",
             description:
             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos. ", 
-            col: "text-[#A01A7D]",
+            col: "text-[#A01A7D] poppins text-4xl sm:text-5xl font-semibold md:text-6xl",
         },
     ];
 </script>
@@ -149,21 +149,45 @@
             We aim to . . .
         </p>
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
-            {#each benefits as benefit, index}
-                <div class="flex gap-6 sm:gap-8">
+            <!--educate-->    
+            <div class="flex gap-6 sm:gap-8">
                     <p
-                        class={"${benefit.col} poppins text-4xl sm:text-5xl font-semibold md:text-6xl"}
+                        class={benefits[0].col}
                     >
-                        0{index + 1}
                     </p>
                     <div class="flex flex-col gap-6 sm:gap-8">
                         <h3 class="text-2xl sm:text-3xl md:text-5xl">
-                            {benefit.name}
+                            {benefits[0].name}
                         </h3>
-                        <p>{benefit.description}</p>
+                        <p>{benefits[0].description}</p>
                     </div>
-                </div>
-            {/each}
+            </div>
+            <!--empower-->
+            <div class="flex gap-6 sm:gap-8">
+                    <p
+                        class={benefits[1].col}
+                    >
+                    </p>
+                    <div class="flex flex-col gap-6 sm:gap-8">
+                        <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                            {benefits[1].name}
+                        </h3>
+                        <p>{benefits[1].description}</p>
+                    </div>
+            </div>
+            <!--exchange-->
+            <div class="flex gap-6 sm:gap-8">
+                <p
+                    class={benefits[2].col}
+                >
+                </p>
+                <div class="flex flex-col gap-6 sm:gap-8">
+                    <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                        {benefits[2].name}
+                    </h3>
+                    <p>{benefits[2].description}</p>
+            </div>
+        </div>
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
             The <span class="text-violet-400">Complete</span> Package
