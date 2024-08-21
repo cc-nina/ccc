@@ -15,7 +15,12 @@ html {
 h1,
 h2,
 h3,
+
 .arimo {
     font-family: 'Arimo', sans-serif;
+}
+
+.playfair {
+	font-family: 'Playfair Display', sans-serif;
 }
 

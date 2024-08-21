@@ -189,7 +189,7 @@
             </div>
         </div>
         </div>
-        <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
+        <h5 class={"text-2xl sm:text-3xl font-semibold text-center poppins"}>
             The <span class="text-violet-400">Complete</span> Package
         </h5>
         <div
