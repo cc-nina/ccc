@@ -7,8 +7,8 @@
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Interested?
             </h6>
-            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Feel free to <span class="poppins text-[#F3DCCE]">connect</span> with us.
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl playfair">
+                Feel free to <span class="playfair text-[#F3DCCE]">connect</span> with us.
             </h3>
         </div>
     <div class="flex flex-col gap-4 items-center justify-center">

@@ -5,20 +5,20 @@
         {
             name: "Project1",
             icon: "fa-solid fa-marker",
-            description:
-                "Desc1",
+            link:
+                "https://www.google.com",
         },
         {
             name: "Project2",
             icon: "fa-solid fa-volume-high",
-            description:
-                "Desc2",
+            link:
+                "https://www.bing.com",
         },
         {
             name: "Project3",
             icon: "fa-solid fa-handshake-simple",
-            description:
-                "Desc3",
+            link:
+                "https://duckduckgo.com/",
         },
     ];
 
@@ -62,14 +62,16 @@
             <p class="text-base sm:text-lg md:text-xl">
                 Our <span class=" text-[#F3DCCE]"> mission</span> is to lorem ipsum dolor sit amet,  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <button
-                class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-            >
-                <div
-                    class="absolute top-0 right-full w-full h-full bg-[#F3DCCE] opacity-20 group-hover:translate-x-full z-0 duration-200"
-                />
-                <h4 class="relative z-9">Get in touch &rarr;</h4>
-            </button>
+            <a href="#contact">
+                <button
+                    class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-[#311847]"
+                >
+                    <div
+                        class="absolute top-0 right-full w-full h-full bg-[#F3DCCE] opacity-100 group-hover:translate-x-full z-0 duration-200"
+                    />
+                    <h4 class="relative z-9">Get in touch &rarr;</h4>
+                </button>
+            </a>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img
@@ -99,9 +101,9 @@
             <h6 class="text-large sm:text-xl md:text-2xl">
                 A few of our endeavors.
             </h6>
-            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl playfair">
                 
-                Curious about our <span class="poppins text-[#F3DCCE]">projects</span>?
+                Curious about our <span class="playfair text-[#F3DCCE]">projects</span>?
             </h3>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
@@ -142,8 +144,8 @@
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Want to know more?
             </h6>
-            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-[#F3DCCE]">about</span> our sectors.
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl playfair">
+                A bit <span class="playfair text-[#F3DCCE]">about</span> our sectors.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -152,12 +154,9 @@
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             <!--educate-->    
             <div class="flex gap-6 sm:gap-8">
-                    <p
-                        class={benefits[0].col}
-                    >
-                    </p>
+
                     <div class="flex flex-col gap-6 sm:gap-8">
-                        <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                        <h3 class="text-2xl sm:text-3xl md:text-5xl text-[#EF5D60] playfair">
                             {benefits[0].name}
                         </h3>
                         <p>{benefits[0].description}</p>
@@ -165,12 +164,9 @@
             </div>
             <!--empower-->
             <div class="flex gap-6 sm:gap-8">
-                    <p
-                        class={benefits[1].col}
-                    >
-                    </p>
+
                     <div class="flex flex-col gap-6 sm:gap-8">
-                        <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                        <h3 class="text-2xl sm:text-3xl md:text-5xl text-[#EC4067] playfair">
                             {benefits[1].name}
                         </h3>
                         <p>{benefits[1].description}</p>
@@ -178,12 +174,9 @@
             </div>
             <!--exchange-->
             <div class="flex gap-6 sm:gap-8">
-                <p
-                    class={benefits[2].col}
-                >
-                </p>
+
                 <div class="flex flex-col gap-6 sm:gap-8">
-                    <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                    <h3 class="text-2xl sm:text-3xl md:text-5xl text-[#A01A7D] playfair">
                         {benefits[2].name}
                     </h3>
                     <p>{benefits[2].description}</p>

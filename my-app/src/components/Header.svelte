@@ -42,7 +42,7 @@
                 <div
                     class="absolute top-0 right-full w-full h-full bg-[#F3DCCE] opacity-100 group-hover:translate-x-full z-0 duration-200"
                 />
-                <h4 class="relative z-9">Get in touch</h4>
+                <h4 class="relative z-9">Connect</h4>
             </button>
         </a>
     </div>
