@@ -18,7 +18,9 @@
       </div>
       <div class="absolute group-hover:bottom-1 delay-200 -bottom-16 transition-all duration-500 bg-[#311847] right-1 rounded-lg">
         <div class="flex justify-evenly items-center gap-2 p-1 text-2xl text-[#F3DCCE]">
-            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
         </div>
       </div>
     </div>
