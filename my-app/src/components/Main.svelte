@@ -66,7 +66,7 @@
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
             >
                 <div
-                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+                    class="absolute top-0 right-full w-full h-full bg-[#F3DCCE] opacity-20 group-hover:translate-x-full z-0 duration-200"
                 />
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </button>
@@ -108,7 +108,7 @@
             <Step step={steps[0]}>
                 <p>
                     At vero eos et accusamus et iusto odio dignissimos ducimus <strong
-                        class="text-violet-400"
+                        class="text-[#F3DCCE]"
                         >qui blanditiis praesentium voluptatum deleniti atque corrupti!</strong
                     > Uos dolores et quas molestias excepturi sint occaecati cupiditate non.
                 </p>
@@ -116,7 +116,7 @@
             <Step step={steps[1]}>
                 <p>
                     At vero eos et accusamus et iusto odio dignissimos ducimus <strong
-                        class="text-violet-400"
+                        class="text-[#F3DCCE]"
                         >qui blanditiis praesentium voluptatum deleniti atque corrupti!</strong
                     > Uos dolores et quas molestias excepturi sint occaecati cupiditate non.
                 </p>
@@ -124,7 +124,7 @@
             <Step step={steps[2]}>
                 <p>
                     At vero eos et accusamus et iusto odio dignissimos ducimus <strong
-                        class="text-violet-400"
+                        class="text-[#F3DCCE]"
                         >qui blanditiis praesentium voluptatum deleniti atque corrupti!</strong
                     > Uos dolores et quas molestias excepturi sint occaecati cupiditate non.
                 </p>
