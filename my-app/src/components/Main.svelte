@@ -310,9 +310,6 @@
             </div>
         </div>
         </div>
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
-        </div>
     </section>
     <section
         id="team"
@@ -341,9 +338,8 @@
         </div>
 
 
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
-        </div>
+
+
     </section>
     <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
         <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-[#F3DCCE] after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-[#F3DCCE] py-4">
