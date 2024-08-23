@@ -1,6 +1,8 @@
 <script>
     import Step from "./Step.svelte";
 
+    import Profile from "./Profile.svelte";
+
     let steps = [
         {
             name: "Project1",
@@ -43,7 +45,7 @@
         },
     ];
 
-    let admin = [
+    let profiles = [
         {
             name: "Lorem",
             role: "Founder/Executive Director",
@@ -56,9 +58,6 @@
             desc: "Lorem",
             pic: "images/team/headshot.png",
         }, 
-    ]
-
-    let social = [
         {
             name: "Lorem",
             role: "Social Affairs Department Head",
@@ -83,9 +82,6 @@
             desc: "Lorem",
             pic: "images/team/headshot.png",
         },
-    ]
-
-    let publicity = [
         {
             name: "Lorem",
             role: "Publicity Department Head",
@@ -116,9 +112,6 @@
             desc: "Lorem",
             pic: "images/team/headshot.png",
         },
-    ]
-
-    let exchange = [
         {
             name: "Lorem",
             role: "Exchange Sector Head",
@@ -137,9 +130,6 @@
             desc: "Lorem",
             pic: "images/team/headshot.png",
         },
-    ]
-
-    let educate = [
         {
             name: "Lorem",
             role: "Educate Sector Head",
@@ -182,9 +172,6 @@
             desc: "Lorem",
             pic: "images/team/headshot.png",
         },
-    ]
-
-    let empower = [
         {
             name: "Lorem",
             role: "Empower Sector Head",
@@ -211,7 +198,6 @@
         },
     ]
 
-    
 
 </script>
 
@@ -346,13 +332,37 @@
         <h5 class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
             Our <span class="text-[#F3DCCE]">Team</span> 
         </h5>
-        <div class="relative shadow-2xl grid place-items-center">
-            <img
-                src={"images/profile.png"}
-                alt="giant logo or related image"
-                class="object-cover z-[2] max-h-[70vh]"
-            />
+        <div class="min-h-screen gap-6 flex items-center justify-center">
+            <div
+              class="bg-[#311847] relative shadow-xl overflow-hidden hover:shadow-2xl group rounded-xl p-5 transition-all duration-500 transform">
+              <div class="flex items-center gap-4">
+                <img src={"images/team/headshot.png"}
+                class="w-32 group-hover:w-36 group-hover:h-36 h-32 object-center object-cover rounded-full transition-all duration-500 delay-500 transform"
+              />
+                <div class="w-fit transition-all transform duration-500">
+                  <h1 class="text-[#F3DCCE] font-bold">
+                    Bobby Tables
+                  </h1>
+                  <p class="text-gray-200">Database Manager</p>
+                </div>
+              </div>
+              <div class="absolute group-hover:bottom-1 delay-300 -bottom-16 transition-all duration-500 bg-[#311847] right-1 rounded-lg">
+                <div class="flex justify-evenly items-center gap-2 p-1 text-2xl text-[#F3DCCE]">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            {#each profiles as profile, index}
+            <Profile profile={profiles[index]}>
+            </Profile>
+            {/each}
         </div>
+
+
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
