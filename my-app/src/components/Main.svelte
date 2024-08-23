@@ -96,43 +96,7 @@
             />
         </div> -->
     </section>
-    <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
-        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-[#F3DCCE] after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-[#F3DCCE] py-4">
-            <h6 class="text-large sm:text-xl md:text-2xl">
-                A few of our endeavors.
-            </h6>
-            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl playfair">
-                
-                Curious about our <span class="playfair text-[#F3DCCE]">projects</span>?
-            </h3>
-        </div>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
-                <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus <strong
-                        class="text-[#F3DCCE]"
-                        >qui blanditiis praesentium voluptatum deleniti atque corrupti!</strong
-                    > Uos dolores et quas molestias excepturi sint occaecati cupiditate non.
-                </p>
-            </Step>
-            <Step step={steps[1]}>
-                <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus <strong
-                        class="text-[#F3DCCE]"
-                        >qui blanditiis praesentium voluptatum deleniti atque corrupti!</strong
-                    > Uos dolores et quas molestias excepturi sint occaecati cupiditate non.
-                </p>
-            </Step>
-            <Step step={steps[2]}>
-                <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus <strong
-                        class="text-[#F3DCCE]"
-                        >qui blanditiis praesentium voluptatum deleniti atque corrupti!</strong
-                    > Uos dolores et quas molestias excepturi sint occaecati cupiditate non.
-                </p>
-            </Step>
-        </div>
-    </section>
+    
     <section
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
@@ -195,6 +159,43 @@
         </div>
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
+        </div>
+    </section>
+    <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
+        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-[#F3DCCE] after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-[#F3DCCE] py-4">
+            <h6 class="text-large sm:text-xl md:text-2xl">
+                A few of our endeavors.
+            </h6>
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl playfair">
+                
+                Curious about our <span class="playfair text-[#F3DCCE]">projects</span>?
+            </h3>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            <Step step={steps[0]}>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus <strong
+                        class="text-[#F3DCCE]"
+                        >qui blanditiis praesentium voluptatum deleniti atque corrupti!</strong
+                    > Uos dolores et quas molestias excepturi sint occaecati cupiditate non.
+                </p>
+            </Step>
+            <Step step={steps[1]}>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus <strong
+                        class="text-[#F3DCCE]"
+                        >qui blanditiis praesentium voluptatum deleniti atque corrupti!</strong
+                    > Uos dolores et quas molestias excepturi sint occaecati cupiditate non.
+                </p>
+            </Step>
+            <Step step={steps[2]}>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus <strong
+                        class="text-[#F3DCCE]"
+                        >qui blanditiis praesentium voluptatum deleniti atque corrupti!</strong
+                    > Uos dolores et quas molestias excepturi sint occaecati cupiditate non.
+                </p>
+            </Step>
         </div>
     </section>
 </main>
