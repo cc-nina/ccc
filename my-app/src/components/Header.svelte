@@ -3,6 +3,7 @@
 
     export let tabs = [
         { name: "About", link: "#about" },
+        { name: "Team", link: "#team" },
         { name: "Projects", link: "#projects" },
         { name: "Blog", link: "https://medium.com/@futurefemaleleaderssociety" },
     ];
@@ -22,7 +23,7 @@
             <a
                 href={tab.link}
                 class="duration-200 hover:text-[#F3DCCE]"
-                target={index === 2 ? "_blank" : ""}
+                target={index === 3 ? "_blank" : ""}
             >
                 <p>{tab.name}</p>
             </a>
