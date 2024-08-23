@@ -24,7 +24,6 @@
 
     let benefits = [
         {
-            metric: "10x",
             name: "Educate",
             description:
             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos. ", 
@@ -43,6 +42,177 @@
             col: "text-[#A01A7D] poppins text-4xl sm:text-5xl font-semibold md:text-6xl",
         },
     ];
+
+    let admin = [
+        {
+            name: "Lorem",
+            role: "Founder/Executive Director",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Head of Admin Affairs",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        }, 
+    ]
+
+    let social = [
+        {
+            name: "Lorem",
+            role: "Social Affairs Department Head",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Social Affairs Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        }, 
+        {
+            name: "Lorem",
+            role: "Social Affairs Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Social Affairs Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+    ]
+
+    let publicity = [
+        {
+            name: "Lorem",
+            role: "Publicity Department Head",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Graphic Design",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        }, 
+        {
+            name: "Lorem",
+            role: "Graphic Design",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Graphic Design",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Photography and Media Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+    ]
+
+    let exchange = [
+        {
+            name: "Lorem",
+            role: "Exchange Sector Head",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Exchange Sector Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        }, 
+        {
+            name: "Lorem",
+            role: "Exchange Sector Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+    ]
+
+    let educate = [
+        {
+            name: "Lorem",
+            role: "Educate Sector Head",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Educate Sector Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        }, 
+        {
+            name: "Lorem",
+            role: "Educate Sector Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Editor-in-Chief",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Editor",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Writer",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Writer",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+    ]
+
+    let empower = [
+        {
+            name: "Lorem",
+            role: "Empower Sector Head",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Empower Sector Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        }, 
+        {
+            name: "Lorem",
+            role: "Empower Sector Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+        {
+            name: "Lorem",
+            role: "Empower Sector Coordinator",
+            desc: "Lorem",
+            pic: "images/team/headshot.png",
+        },
+    ]
+
+    
+
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -112,10 +282,17 @@
                 A bit <span class="playfair text-[#F3DCCE]">about</span> our sectors.
             </h3>
         </div>
-        <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-            We aim to . . .
-        </p>
+        
+        
+
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
+            <!--mission statement-->
+            <div class="flex gap-6 sm:gap-8">
+
+                <div class="flex flex-col gap-6 sm:gap-8">
+                    <p>Mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission statement mission</p>
+                </div>
+            </div>
             <!--educate-->    
             <div class="flex gap-6 sm:gap-8">
 
