@@ -54,7 +54,7 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! We're <span class="poppins  text-[#F3DCCE]">FFLS</span> 
+                Hi! We're <span class="poppins text-[#F3DCCE]">FFLS</span> 
             </h2>
             <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl">
                 The <span class="poppins italic  text-[#F3DCCE]">Future Female Leaders Society</span> 
@@ -100,7 +100,8 @@
                 A few of our endeavors.
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-violet-400">see</span> our work?
+                
+                Curious about our <span class="poppins text-[#F3DCCE]">projects</span>?
             </h3>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
@@ -142,7 +143,7 @@
                 Want to know more?
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> our sectors.
+                A bit <span class="poppins text-[#F3DCCE]">about</span> our sectors.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -189,8 +190,8 @@
             </div>
         </div>
         </div>
-        <h5 class={"text-2xl sm:text-3xl font-semibold text-center poppins"}>
-            Our <span class="text-violet-400">Team</span> 
+        <h5 class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
+            Our <span class="text-[#F3DCCE]">Team</span> 
         </h5>
         <div class="relative shadow-2xl grid place-items-center">
             <img

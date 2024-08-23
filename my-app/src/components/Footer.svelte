@@ -8,24 +8,24 @@
                 Interested?
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Feel free to <span class="poppins text-violet-400">connect</span> with us.
+                Feel free to <span class="poppins text-[#F3DCCE]">connect</span> with us.
             </h3>
         </div>
     <div class="flex flex-col gap-4 items-center justify-center">
         <div
             class="flex items-center gap-4 sm:gap-6 text-2xl sm:text-3xl md:text-4xl mx-auto"
         >
-            <a>
+            <a href="mailto:example.com" target="_blank">
                 <i class="fa fa-envelope" />
             </a>
-            <a>
+            <a href="https://www.instagram.com/fflsociety_/" target="_blank" >
                 <i class="fa-brands fa-instagram" />
             </a>
-            <a>
+            <a href="https://medium.com/@futurefemaleleaderssociety" target="_blank" >
                 <i class="fa-brands fa-medium" />
             </a>
         </div>
-        <p class="mx-auto text-sm opacity-70">or</p>
+        <p class="mx-auto text-sm opacity-0">or</p>
 
         <p><b class="pr-2">Email</b> 
             <a href="mailto:example.com" target="_blank" class="text-violet-400">
