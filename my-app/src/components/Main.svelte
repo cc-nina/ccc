@@ -54,7 +54,7 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! We're <span class="poppins text-[#F3DCCE]">FFLS</span> 
+                Hi! We're <span class="poppins text-[#F3DCCE]">FFLS</span>.
             </h2>
             <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl">
                 The <span class="poppins italic  text-[#F3DCCE]">Future Female Leaders Society</span> 
