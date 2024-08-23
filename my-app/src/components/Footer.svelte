@@ -16,19 +16,19 @@
             class="flex items-center gap-4 sm:gap-6 text-2xl sm:text-3xl md:text-4xl mx-auto"
         >
             <a href="mailto:example.com" target="_blank">
-                <i class="fa fa-envelope" />
+                <i style="color: #F3DCCE" class="fa fa-envelope" />
             </a>
             <a href="https://www.instagram.com/fflsociety_/" target="_blank" >
-                <i class="fa-brands fa-instagram" />
+                <i style="color: #F3DCCE" class="fa-brands fa-instagram" />
             </a>
             <a href="https://medium.com/@futurefemaleleaderssociety" target="_blank" >
-                <i class="fa-brands fa-medium" />
+                <i style="color: #F3DCCE" class="fa-brands fa-medium" />
             </a>
         </div>
         <p class="mx-auto text-sm opacity-0">or</p>
 
         <p><b class="pr-2">Email</b> 
-            <a href="mailto:example.com" target="_blank" class="text-violet-400">
+            <a href="mailto:example.com" target="_blank" class="text-[#F3DCCE]">
                 example@gmail.com<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
@@ -39,7 +39,7 @@
         </p>
         <p>
             <b class="pr-2">Instagram</b>
-            <a href="https://www.instagram.com/fflsociety_/" target="_blank" class="text-violet-400"
+            <a href="https://www.instagram.com/fflsociety_/" target="_blank" class="text-[#F3DCCE]"
                 >@fflsociety_<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
@@ -50,7 +50,7 @@
         </p>
         <p>
             <b class="pr-2">Medium</b>
-            <a href="https://medium.com/@futurefemaleleaderssociety" target="_blank" class="text-violet-400"
+            <a href="https://medium.com/@futurefemaleleaderssociety" target="_blank" class="text-[#F3DCCE]"
                 >@futurefemaleleaderssociety<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
